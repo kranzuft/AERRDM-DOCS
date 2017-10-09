@@ -8,10 +8,6 @@ Automatic Emergency Rescue Resource Deployment in Metropolis System Documentatio
 
 This document stands as the documentation for the Automatic Emergency Rescue Resource Deployment in Metropolis (AERRDM) System. It is hosted on `ReadTheDocs`_. The document is split into three major sections:
 
-* :ref:`getting_started`
-* :ref:`mobile_application`
-* :ref:`web_application`
-
 .. _getting_started:
 
 .. toctree::
