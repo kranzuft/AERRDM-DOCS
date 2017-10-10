@@ -25,7 +25,7 @@ Consider the above figure showing the sign in screen. Annotations 1 and 2 relate
 
 .. note:: Before logging in a user should always check the server IP is updated to the current IPv4 address. To avoid repeatedly changing the address you should look into port forwarding.
 
-The final annotation (4) identifies the login button at the bottom of the screen. If the username and password are entered the mobile application attempts to login the user. If the user's credentials are correct the user is logged into the system.
+The final annotation (4) identifies the login button at the bottom of the screen. When this button is pressed, the mobile application attempts to login the user. If the user's credentials are validated the user is logged into the system.
 
 Receiving Requests
 ------------------
