@@ -23,7 +23,7 @@ To use the mobile application a user must authenticate with the server, which ca
 
 Consider the above figure showing the sign in screen. Annotations 1 and 2 relate to the login fields, being the username and password of the account. As mentioned earlier, an user enter there username and password into these fields to both gain access to the mobile application's features, as well as authenticate with the server. Below these fields is the server address field, which is the ip address that the application authenticates the account information with. This field is included in this release since currently the server application runs off a computer using a non-static IP.
 
-.. note:: Before logging in a user should always check the server IP is updated to the current IPv4 address. To avoid repeatedly changing the address you should look into port forwarding.
+.. note:: Before logging in a user should always check the server IP is correct. It should be the IPv4 address on the computer the server is running on.  To avoid repeatedly changing the address you may wish to look into port forwarding. This project is implemented in a way that does not assume nor expect port forwarding. Later versions of this software, if completed, will not require the server address.
 
 The final annotation (4) identifies the login button at the bottom of the screen. When this button is pressed, the mobile application attempts to login the user. If the user's credentials are validated the user is logged into the system.
 
@@ -31,6 +31,12 @@ Receiving Requests
 ------------------
 
 Once you are logged into the mobile application, the application will wait until a request is received from the web application. This screen does not require user input.
+
+.. figure:: img/mobile_awaiting_request_manual.png
+    :scale: 33%
+    :alt: Awaiting Request Screen Image
+
+    Figure 2.2: Awaiting Request Screen
 
 Above is the screen presented whilst a request has still not been received. A dialog will appear when a request is incoming. Once the request is received, the request screen will appear. 
 
@@ -43,7 +49,7 @@ To help a user appropriately respond to a mobile request, the most relevant info
     :scale: 33%
     :alt: Request Screen
 
-    Figure 2.2: Request Screen
+    Figure 2.3: Request Screen
 
 Viewing the Route
 -----------------
