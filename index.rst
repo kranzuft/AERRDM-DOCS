@@ -6,13 +6,13 @@
 Automatic Emergency Rescue Resource Deployment in Metropolis System Manual
 ==========================================================================
 
-This document stands as the documentation for the Automatic Emergency Rescue Resource Deployment in Metropolis (AERRDM) System. It is hosted on `ReadTheDocs`_. The document is split into three major sections:
+This document stands as the user manual for the Automatic Emergency Rescue Resource Deployment in Metropolis (AERRDM) System. It is hosted on `ReadTheDocs`_. The document is split into three major sections:
 
 .. _contents:
 
 .. toctree::
     :maxdepth: 2
-    :caption: Manual Contents
+    :caption: Contents
 
     installation
     quickstart
