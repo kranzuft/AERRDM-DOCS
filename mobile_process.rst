@@ -30,11 +30,22 @@ The final annotation (4) identifies the login button at the bottom of the screen
 Receiving Requests
 ------------------
 
-Once you are logged into the mobile application, the application will wait 
+Once you are logged into the mobile application, the application will wait until a request is received from the web application. This screen does not require user input.
+
+Above is the screen presented whilst a request has still not been received. A dialog will appear when a request is incoming. Once the request is received, the request screen will appear. 
 
 Responding to Requests
 ----------------------
 
+To help a user appropriately respond to a mobile request, the most relevant information pertaining to the request is presented to the user before they have to respond. This information includes the street address of the destination, route overview, the event's severity and the event's classification.
+
+.. figure:: img/mobile_request_manual.png
+    :scale: 33%
+    :alt: Request Screen
+
+    Figure 2.2: Request Screen
+
 Viewing the Route
 -----------------
+
 
