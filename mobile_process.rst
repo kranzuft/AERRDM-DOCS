@@ -43,13 +43,15 @@ Above is the screen presented whilst a request has still not been received. A di
 Responding to Requests
 ----------------------
 
-To help a user appropriately respond to a mobile request, the most relevant information pertaining to the request is presented to the user before they have to respond. This information includes the street address of the destination, route overview, the event's severity and the event's classification.
+To help a user appropriately respond to a mobile request, the most relevant information pertaining to the request is presented to the user before they have to respond. This information includes the street address of the destination, arrival deadline, route overview, the event's severity and the event's classification.
 
 .. figure:: img/mobile_request_manual.png
     :scale: 33%
     :alt: Request Screen
 
     Figure 2.3: Request Screen
+
+The destination, classification and deadline are annotated as 2, 3 and 4 in the above figure showing the request screen. Once 
 
 Viewing the Route
 -----------------
