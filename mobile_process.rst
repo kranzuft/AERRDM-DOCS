@@ -51,7 +51,9 @@ To help a user appropriately respond to a mobile request, the most relevant info
 
     Figure 2.3: Request Screen
 
-The destination, classification and deadline are annotated as 2, 3 and 4 in the above figure showing the request screen. Once 
+The destination, classification and deadline are annotated as 2, 3 and 4 in the above figure of the request screen. Once this information is reviewed, a response can be selected from the dropdown toggle by the button identified as annotation 1.
+
+A user may also review the route through the route preview (annotation 5)
 
 Viewing the Route
 -----------------
