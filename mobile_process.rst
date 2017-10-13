@@ -17,6 +17,7 @@ To use the mobile application a user must authenticate with the server, which ca
 
 .. figure:: img/mobile_signin_manual.png
     :scale: 33%
+    :align: center
     :alt: Login Screen Image
 
     Figure 2.1: Sign In Screen
@@ -67,6 +68,7 @@ Once you are logged into the mobile application, the application will wait until
 
 .. figure:: img/mobile_awaiting_request_manual.png
     :scale: 33%
+    :align: center
     :alt: Awaiting Request Screen Image
 
     Figure 2.2: Awaiting Request Screen
@@ -80,15 +82,25 @@ To help a user appropriately respond to a mobile request, the most relevant info
 
 .. figure:: img/mobile_request_manual.png
     :scale: 33%
+    :align: center
     :alt: Request Screen
 
     Figure 2.3: Request Screen
 
-The destination, classification and deadline are annotated as 2, 3 and 4 in the above figure of the request screen. Once this information is reviewed, a response can be selected from the dropdown toggle by the button identified as annotation 1.
+The destination, classification and deadline are shown above (ann. 2, 3, 4). Once this information is reviewed, a response can be selected from the dropdown toggle (ann. 1).
 
-When you tap the red button with the clip board icon, a dropdown like the one above will appear. The first option (ann. 1) accepts the request, whereas the other (ann. 2) will decline the request, and you will be returned to the awaiting request screen (figure 2.2).
+Stepping Through the Process
+----------------------------
+
+1. When you tap the red button with the clip board icon, a dropdown like the one below will appear. The first option (ann. 1) accepts the request, whereas the other (ann. 2) will decline the request, and you will be returned to the awaiting request screen (fig. 2.2).
+
+2. Tapping one of the options will cause a dialog to appear like below. Tap **ok** to confirm the response.
+
+3. You will then be redirected to the "On Request" screen.
 
 Viewing the Route
 *****************
 
 Viewing the route in the current version of the application is optimised for demonstration and simulation purposes, having both a static camera, bird's eye view mode and a moving camera, tilted view mode.
+
+
