@@ -85,22 +85,42 @@ To help a user appropriately respond to a mobile request, the most relevant info
     :align: center
     :alt: Request Screen
 
-    Figure 2.3: Request Screen
+    Figure 2.3.1: Request Screen
 
 The destination, classification and deadline are shown above (ann. 2, 3, 4). Once this information is reviewed, a response can be selected from the dropdown toggle (ann. 1).
 
 Stepping Through the Process
 ----------------------------
 
-1. When you tap the red button with the clip board icon, a dropdown like the one below will appear. The first option (ann. 1) accepts the request, whereas the other (ann. 2) will decline the request, and you will be returned to the awaiting request screen (fig. 2.2).
+1. When you tap the red clipboard button, a dropdown like the one below will appear. The first from the top declines the request, returning to the awaiting request screen (fig. 2.2). The other will accept the request, and you will be taken to the map screen.
 
-2. Tapping one of the options will cause a dialog to appear like below. Tap **ok** to confirm the response.
+.. figure:: img/mobile_request_options_manual.png
+    :scale: 60%
+    :align: center
+    :alt: Mobile Request Screen Options
+
+    Figure 2.3.2: Request Screen Options
+
+2. Tapping one of the options will cause a dialog to appear like below. If you tap **confirm** the request will either be allocated to your account (if you accept), or other resources will be allocated to the request, and you will be returned to the map screen.
 
 3. You will then be redirected to the "On Request" screen.
 
 Viewing the Route
 *****************
 
-Viewing the route in the current version of the application is optimised for demonstration and simulation purposes, having both a static camera, bird's eye view mode and a moving camera, tilted view mode.
+Viewing the route in the current version of the application is optimised for demonstration and simulation purposes, having both a static camera (bird's eye view) mode and a moving camera (tilted view) mode. Controls are provided on the screen for demonstration purposes (red controls) and for rotating and positioning the Google Map display.
+
+.. figure:: img/mobile_map_manual.png
+    :scale: 33%
+    :align: center
+    :alt: Mobile Map Screen
+
+
+
+There are two primary controls for demonstration purposes. They are coloured red, and allow the user to stop and change the speed of the mobile resource.
+
+* **Speed Scale:** In the mobile application you can speed up the vehicle by scaling how fast the vehicle moves. The vehicles speed can be multiplied by 20, 40, 60, 80 and 100 times the normal driving pace of the trip. The vehicles increase in speed is independent of the web application's speed up and slow down functionality.
+
+* **Pause Mode:** The mobile resource can be stopped by pressing the "pause mode" button. By tapping the button again the mobile resource resumes. It simulates time being stopped, however it works independently of the web application, as otherwise both would be stopping and starting constantly. The same is applied to the speed scale controls.
 
 
