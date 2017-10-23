@@ -115,12 +115,23 @@ Viewing the route in the current version of the application is optimised for dem
     :align: center
     :alt: Mobile Map Screen
 
+On the map are several key points of interest:
 
+* **Marker**: The red marker represents the current location of the mobile resource.
 
-There are two primary controls for demonstration purposes. They are coloured red, and allow the user to stop and change the speed of the mobile resource.
+* **Route Path**: The green path is the path that the marker is following.
+
+* **Route Info**: At the bottom of the screen is information about how long the trip will take, the distance and the arrival time.
+
+* **Map Information**: Google Maps provides a view of the surrounding area, showing important points of interest such as nearby towns and highways.
+
+There are three primary on-screen controls, two for demonstration purposes (in red) and one for controlling the map (in semi-transparent white). They allow the user to stop and change the speed of the mobile resource.
 
 * **Speed Scale:** In the mobile application you can speed up the vehicle by scaling how fast the vehicle moves. The vehicles speed can be multiplied by 20, 40, 60, 80 and 100 times the normal driving pace of the trip. The vehicles increase in speed is independent of the web application's speed up and slow down functionality.
 
 * **Pause Mode:** The mobile resource can be stopped by pressing the "pause mode" button. By tapping the button again the mobile resource resumes. It simulates time being stopped, however it works independently of the web application, as otherwise both would be stopping and starting constantly. The same is applied to the speed scale controls.
 
+* **Zoom Controls:** This allows the user to zoom in and zoom out of the Google Map. The "+" symbol zooms in when tapped and the "-" symbole zooms out when tapped.
+
+The map also has gestures enabled, meaning you can move the map as though it were a sheet of paper. Sliding, twisting and pushing out with your fingers will move, rotate and zoom on the map.
 
