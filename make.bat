@@ -8,8 +8,8 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=python -msphinx
 )
 set SOURCEDIR=.
-set BUILDDIR=_build
-set SPHINXPROJ=AutomaticEmergencyRescueResourceDeploymentinMetropolis
+set BUILDDIR=.build
+set SPHINXPROJ=AERRDM
 
 if "%1" == "" goto help
 
