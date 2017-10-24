@@ -1,5 +1,6 @@
 # sphinx build folder
-_build
+.build
+make.bat
 
 # Mac Crap
 .DS_Store
