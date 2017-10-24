@@ -33,6 +33,7 @@
 # ones.
 extensions = []
 latex_keep_old_macro_names=False
+latex_engine = 'xelatex'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -123,11 +124,11 @@ htmlhelp_basename = 'AutomaticEmergencyRescueResourceDeploymentinMetropolisdoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'a4paper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '11pt',
 
     # Additional stuff for the LaTeX preamble.
     #
