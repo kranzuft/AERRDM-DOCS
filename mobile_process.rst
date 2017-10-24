@@ -3,17 +3,17 @@
 Using the Mobile Application
 ############################
 
-This chapter discerns details about different aspects of the mobile application. An overview heads the chapter, which lays out the purpose and overall functionality of the mobile application. The other sections cover each section of the the mobile application.
+This chapter discerns details about different aspects of the mobile app. An overview heads the chapter, which lays out the purpose and overall functionality of the mobile app. The other sections cover each section of the the mobile app.
 
 Overview
 ********
 
-The mobile application has a simple and intuitive process that allows a mobile resource driver to efficiently navigate to an emergency event. A mobile resource driver is an individual who drives a team of first responders to an emergency event, generally being either a police officer, ambulance driver or firefighter. They are allocated emergency events to respond to by the server, and have the option to accept or decline the request. To identify the mobile resource the mobile resource driver must login to the server's authentication system using the mobile application. Responding to requests as well as navigation to requests is also achieved through the mobile application.
+The mobile app has a simple and intuitive process that allows a mobile resource driver to efficiently navigate to an emergency event. A mobile resource driver is an individual who drives a team of first responders to an emergency event, generally being either a police officer, ambulance driver or firefighter. They are allocated emergency events to respond to by the server, and have the option to accept or decline the request. To identify the mobile resource the mobile resource driver must login to the server's authentication system using the mobile app. Responding to requests as well as navigation to requests is also achieved through the mobile app.
 
 The Login Process
 *****************
 
-To use the mobile application a user must authenticate with the server, which can be done by entering user credentials (username and password). The credentials provided to the mobile application must already be registered with the server application by a process demonstrated in the *registering an account* section of the web application's documentation.
+To use the mobile app a user must authenticate with the server, which can be done by entering your personal user credentials (username and password). The credentials provided to the mobile app must already be registered with the server application by a process demonstrated in the *registering an account* section of the web application's documentation.
 
 .. figure:: img/mobile_signin_manual.png
     :scale: 33%
@@ -53,7 +53,7 @@ This section will guide you through the steps necessary to correctly access the 
    
 .. note:: Before logging in a user should always check the server IP is correct. It should be the IPv4 address on the computer the server is running on.  To avoid repeatedly changing the address you may wish to look into port forwarding. This project is implemented in a way that does not assume nor expect port forwarding. Later versions of this software, if completed, will not require the server address.
 
-4. The final annotation from figure 2.1 (ann. 4) identifies the login button at the bottom of the screen. When this button is pressed, the mobile application attempts to login the user. If the user's credentials are validated the user is logged into the system. The button is shown (enlarged) below.
+4. The final annotation from figure 2.1 (ann. 4) identifies the login button at the bottom of the screen. When this button is pressed, the mobile app attempts to login the user. If the user's credentials are validated the user is logged into the system. The button is shown (enlarged) below.
 
 .. figure:: img/mobile_signin_login_button_manual.png
     :scale: 33%
@@ -64,7 +64,7 @@ This section will guide you through the steps necessary to correctly access the 
 Receiving Requests
 ******************
 
-Once you are logged into the mobile application, the application will wait until a request is received from the web application. This screen does not require user input.
+Once you are logged into the mobile app, the application will wait until a request is received from the web application. This screen does not require user input.
 
 .. figure:: img/mobile_awaiting_request_manual.png
     :scale: 33%
@@ -108,7 +108,7 @@ Stepping Through the Process
 Viewing the Route
 *****************
 
-Viewing the route in the current version of the application is optimised for demonstration and simulation purposes, having both a static camera (bird's eye view) mode and a moving camera (tilted view) mode. Controls are provided on the screen for demonstration purposes (red controls) and for rotating and positioning the Google Map display.
+The route allows the user to view where a simulated resource is at the present point in the simulation. Viewing the route in the current version of the application is optimised for demonstration and simulation purposes, having both a static camera (bird's eye view) mode and a moving camera (tilted view) mode. Controls are provided on the screen for demonstration purposes as well as for moving and rotating the Google Map display.
 
 .. figure:: img/mobile_map_manual.png
     :scale: 33%
@@ -127,11 +127,24 @@ On the map are several key points of interest:
 
 There are three primary on-screen controls, two for demonstration purposes (in red) and one for controlling the map (in semi-transparent white). They allow the user to stop and change the speed of the mobile resource.
 
-* **Speed Scale:** In the mobile application you can speed up the vehicle by scaling how fast the vehicle moves. The vehicles speed can be multiplied by 20, 40, 60, 80 and 100 times the normal driving pace of the trip. The vehicles increase in speed is independent of the web application's speed up and slow down functionality.
+* **Speed Scale:** In the mobile app you can speed up the vehicle by scaling how fast the vehicle moves. The vehicles speed can be multiplied by 20, 40, 60, 80 and 100 times the normal driving pace of the trip. The vehicles increase in speed is independent of the web application's speed up and slow down functionality.
 
 * **Pause Mode:** The mobile resource can be stopped by pressing the "pause mode" button. By tapping the button again the mobile resource resumes. It simulates time being stopped, however it works independently of the web application, as otherwise both would be stopping and starting constantly. The same is applied to the speed scale controls.
 
 * **Zoom Controls:** This allows the user to zoom in and zoom out of the Google Map. The "+" symbol zooms in when tapped and the "-" symbole zooms out when tapped.
 
 The map also has gestures enabled, meaning you can move the map as though it were a sheet of paper. Sliding, twisting and pushing out with your fingers will move, rotate and zoom on the map.
+
+User Settings
+*************
+
+Only two options require configuration by the user while the application is running. Both are toggled on and off, without any advanced input from the user. Below is a picture of the settings screen, followed by a description of each settings, starting from the top.
+
+* **Toggle Notifications**: Toggles whether a notification appears in the status bar when a request is received from the server. 
+  
+.. note:: If a request is received and the user is currently using another app, the mobile app is immediately opened to the request screen. In real-world scenarios responses would be required immediately, and this will assist in speeding up response times.
+
+* **Toggle Map Camera Motion and Rotation**: To understand this part an explanation is needed. Imagine a camera pointed straight down on the earth, showing a birds-eye view of the world. Toggling this option in the settings "on" allows the camera to dynamically move to show the current position of the mobile resource as though shot from a helicopter following behind the vehicle, rather than statically presented from above.
+  
+  This allows you to toggle automatic camera adjustments as the simulated marker moves on the screen. Consider this explanation o a camera is being pointed directly down from space to the earth. The camera here is a bird's eye view of the world, statically placed. It is recommended to have this turned off when demonstrating the mobile app, as it is easier to see what is happening on the screen when the camera is stationary.
 
