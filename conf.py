@@ -33,7 +33,7 @@
 # ones.
 extensions = []
 latex_keep_old_macro_names=False
-latex_engine = 'xelatex'
+latex_engine = 'luatex'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
