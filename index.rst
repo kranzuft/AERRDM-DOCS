@@ -14,15 +14,11 @@ This document stands as the user manual for the Automatic Emergency Rescue Resou
     :maxdepth: 2
     :caption: Contents
 
-    installation
     quickstart
 
-    mobile_settings
     mobile_process
     mobile_troubleshooting
 
     web_allocation
-    web_facility
-    web_troubleshooting
 
 .. _ReadTheDocs: http://readthedocs.org
